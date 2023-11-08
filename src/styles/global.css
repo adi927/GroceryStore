@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    147deg,
+    #8cb592 9.66%,
+    rgba(21, 53, 27, 0.34) 94.28%
+  );
+  background-attachment: fixed;
+}
