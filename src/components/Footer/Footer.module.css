@@ -29,8 +29,16 @@
   margin: 10px 0;
 }
 
-.spanStatus {
+.spanStatusClose {
   background-color: #ff5555;
+  color: white;
+  border-radius: 4.5px;
+  margin-top: 14px;
+  padding: 16px 45px;
+}
+
+.spanStatusOpen {
+  background-color: #5f7e65;
   color: white;
   border-radius: 4.5px;
   margin-top: 14px;

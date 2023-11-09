@@ -36,7 +36,7 @@ const Main = () => {
             </div>
           </div>
           <p className={styles.price}>
-            <span className={styles.priceSpan}>Cena:</span>
+            <span className={styles.priceSpan}>Cena: </span>
             {veggie.price}
           </p>
         </div>
