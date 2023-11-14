@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Main.module.css";
 import { veggies } from "../../helpers/objects.js";
 
 const Main = () => {
+  const [veggiesList, setVeggiesList] = useState(veggies);
+
+  const deleteVeggie = (veggieName) => {
+    setVeggiesList((current) =>
+      current.filter((veggie) => veggie.name !== veggieName)
+    );
+  };
+
   return (
     <div className={styles.main}>
-      {veggies.map((veggie) => (
+      {veggiesList.map((veggie) => (
         <div className={styles.objectDiv} key={veggie.name}>
           <img className={styles.img} src={veggie.image} alt="img"></img>
           <div className={styles.insideObject}>
@@ -38,6 +46,14 @@ const Main = () => {
           <p className={styles.price}>
             <span className={styles.priceSpan}>Cena: </span>
             {veggie.price}
+          </p>
+          <p
+            className={styles.deleteButton}
+            onClick={() => {
+              deleteVeggie(veggie.name);
+            }}
+          >
+            <span className={styles.spanDelete}>X</span>
           </p>
         </div>
       ))}

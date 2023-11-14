@@ -79,5 +79,19 @@
   right: 0;
   color: white;
   text-align: center;
-  font-size: 19.021px;
+  font-size: 19px;
+}
+
+.deleteButton {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 0px 0px 14px 0px;
+  padding: 17px 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.spanDelete {
+  font-weight: bold;
 }
