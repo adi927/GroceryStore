@@ -61,3 +61,71 @@
   font-weight: bold;
   margin-bottom: 9px;
 }
+
+@media screen and (max-width: 500px) {
+  .footer {
+    width: 100%;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 19px;
+  }
+
+  .hoursOpen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .spanHours {
+    padding: 5px;
+    background-color: #5f7e65;
+    color: white;
+    border-radius: 4.5px;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .paragraph {
+    margin: 10px 0;
+  }
+
+  .spanStatusClose {
+    background-color: #ff5555;
+    color: white;
+    border-radius: 4.5px;
+    margin-top: 14px;
+    padding: 16px 45px;
+  }
+
+  .spanStatusOpen {
+    background-color: #5f7e65;
+    color: white;
+    border-radius: 4.5px;
+    margin-top: 7px;
+    padding: 16px 45px;
+  }
+
+  .shopStatus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shopText {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .shopStatusText {
+    margin-top: 15px;
+    font-weight: bold;
+    margin-bottom: 9px;
+  }
+}

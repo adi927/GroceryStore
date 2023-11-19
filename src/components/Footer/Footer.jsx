@@ -31,7 +31,7 @@ const Footer = () => {
               : styles.spanStatusClose
           }
         >
-          {hour >= 6 && hour < 18 ? `Otwary` : `Zamknięty`}
+          {hour >= 6 && hour < 18 ? `Otwarty` : `Zamknięty`}
         </p>
       </div>
     </footer>

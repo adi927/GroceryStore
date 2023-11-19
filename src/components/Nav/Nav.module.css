@@ -19,3 +19,27 @@
   font-size: 30px;
   font-weight: lighter;
 }
+
+@media screen and (max-width: 500px) {
+  .wrapperNav {
+    width: 100%;
+    padding: 79px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: white;
+  }
+
+  .h1 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .h4 {
+    margin-top: 22px;
+    font-size: 16px;
+    font-weight: lighter;
+  }
+}

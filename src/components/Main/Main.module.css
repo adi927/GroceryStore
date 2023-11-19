@@ -75,7 +75,6 @@
   width: 200px;
   border-radius: 0px 14px 0px 14px;
   position: absolute;
-  top: 0;
   right: 0;
   color: white;
   text-align: center;
@@ -94,4 +93,83 @@
 
 .spanDelete {
   font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  .objectDiv {
+    width: 334px;
+    height: 600px;
+    flex-wrap: wrap;
+    border-radius: 24px;
+    background: #e1e1e1;
+    box-shadow: 0px 3px 18px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 19px;
+    display: flex;
+    position: relative;
+  }
+
+  .insideObject {
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 12px;
+  }
+
+  .img {
+    border-radius: 24px 24px 0px 0px;
+    width: 334px;
+    height: 234px;
+  }
+
+  .h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .properties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .calories {
+    margin-left: 9px;
+    margin-right: 12px;
+  }
+
+  .origin {
+    margin-left: 1px;
+  }
+
+  .taste {
+    margin-top: 21px;
+  }
+
+  .price {
+    background-color: #ff5555;
+    width: 200px;
+    height: 47.688px;
+    border-radius: 14px 0px 14px 0px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .deleteButton {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 17px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    width: 1px;
+  }
 }
